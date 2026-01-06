@@ -1,0 +1,33 @@
+{
+  "name": "whatsapp-bot-downloader",
+  "version": "2.0.0",
+  "description": "WhatsApp Bot Multi-Downloader (Spotify, TikTok, Instagram)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "downloader",
+    "spotify",
+    "tiktok",
+    "instagram"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.2",
+    "axios": "^1.7.9",
+    "chalk": "^4.1.2",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
